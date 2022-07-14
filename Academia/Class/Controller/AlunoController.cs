@@ -24,7 +24,7 @@ namespace Academia.Class.Controller
             //DANDO O COMANDO QUE SERÁ EXECUTADO NO BANCO DE DADOS | BITATIVO 1 POIS SE ESTA CADASTRANDO, ELE ESTA ATIVO
             cmd.CommandText = "INSERT INTO tblAluno(nome, CPF, dtNascimento, telefone, celular, sexo, bitAtivo, email, dataCadastro) VALUES(@nome, @CPF, @dtNascimento, @telefone, @celular, @sexo, 1, @email, GETDATE())"; 
 
-            //PARAMETROS
+            //PARAMETROS 
             if (aluno.Nome != "" && aluno.Nome != null)
             {
                 cmd.Parameters.Add("@nome", SqlDbType.VarChar).Value = aluno.Nome;

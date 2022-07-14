@@ -30,7 +30,7 @@ namespace Academia.Window
 
         private void AdicionarAluno()
         {
-            Application.Run(new FrmCadastroAluno());//INFORMANDO QUAL TELA SERÁ INICIADA NA THREAD
+            Application.Run(new FrmAluno());//INFORMANDO QUAL TELA SERÁ INICIADA NA THREAD
         }
 
         private void BtnCalcauladoraTMB_Click(object sender, EventArgs e)

@@ -1,6 +1,6 @@
 ﻿namespace Academia.Window
 {
-    partial class FrmCadastroAluno
+    partial class FrmAluno
     {
         /// <summary>
         /// Required designer variable.

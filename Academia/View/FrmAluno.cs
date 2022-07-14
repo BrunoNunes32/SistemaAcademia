@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace Academia.Window
 {
-    public partial class FrmCadastroAluno : Form
+    public partial class FrmAluno : Form
     {
-        public FrmCadastroAluno()
+        public FrmAluno()
         {
             InitializeComponent();
         }
